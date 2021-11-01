@@ -8,8 +8,11 @@ def p2(sum):
     while (sum > 0):
         if (sum % 2):
             ps.insert(0, x)
-        x = x * 2  # Multiply by 2. Is this a bug?
-        sum = sum >> 1 # Do a shift.
+        x = x * 2
+
+        # Multiply by 2. Is this a bug?
+        sum = sum >> 1
+        # Do a shift.
     # Print the powers.
     for x in ps:
         print x
