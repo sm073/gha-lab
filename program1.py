@@ -12,7 +12,10 @@ def p2(sum):
 
         # Multiply by 2. Is this a bug?
         sum = sum >> 1
+
         # Do a shift.
+        
+
     # Print the powers.
     for x in ps:
         print x
